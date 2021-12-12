@@ -1,24 +1,25 @@
 {
-  "name": "gamlafunds",
+  "name": "gamla",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Barath Nadar",
-  "license": "ISC",
+  "author": "",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
-    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "chai": "^4.3.4",
-    "dotenv": "^10.0.0",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.1",
-    "hardhat": "^2.6.8",
-    "hardhat-gas-reporter": "^1.0.4",
-    "solidity-coverage": "^0.7.17"
+    "hardhat": "^2.7.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "dotenv": "^10.0.0"
   }
 }
